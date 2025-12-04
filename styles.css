@@ -1,2 +1,8 @@
-
+.holder {
+  width: 200px;
+  height: 200px;
+  display: grid;                           /* make this the grid container */
+  grid-template-columns: repeat(2, 1fr);   /* 2 equal columns */
+  grid-template-rows: repeat(2, 1fr);      /* 2 equal rows */
+}
 /* Your CSS Code here. */
